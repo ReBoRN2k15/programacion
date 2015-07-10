@@ -1,0 +1,397 @@
+body {
+	background-color:#fff;
+	background-image: url('../img/fondo.png');
+	font-family: Verdana, Geneva, sans-serif;
+}
+.contenido {
+	width:1000px;
+	margin:auto;
+}
+
+.barra-superior {
+	/* background-color: #ff6600; */
+	background-color: #cee3f8;
+	border-bottom: 1px solid black;
+	color: black;
+	height: auto;
+	overflow:hidden;
+
+	font-size: 10pt;
+
+ padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 1000px;
+  /*background-color: #f5f5f5;*/
+  /*border-bottom: 1px solid #e5e5e5;*/
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cee3f8+1,c5def7+50,cee3f8+100 */
+background: #cee3f8; /* Old browsers */
+background: -moz-linear-gradient(top,  #cee3f8 1%, #c5def7 50%, #cee3f8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cee3f8), color-stop(50%,#c5def7), color-stop(100%,#cee3f8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cee3f8 1%,#c5def7 50%,#cee3f8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cee3f8 1%,#c5def7 50%,#cee3f8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cee3f8 1%,#c5def7 50%,#cee3f8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cee3f8 1%,#c5def7 50%,#cee3f8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee3f8', endColorstr='#cee3f8',GradientType=0 ); /* IE6-9 */
+opacity: 0.9;
+}
+.barra-superior a:visited {
+	color: black;
+}
+.barra-superior a:hover {
+	color: #4078c0;
+}
+.barra-superior ul {
+	margin: 0;
+	list-style: none;
+}
+.barra-superior ul li {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.logo {
+
+	float: left;
+	font-weight: bold;
+	color:black;
+	display: inline-block;
+	vertical-align: middle;
+	display: block;
+	padding: 4px 8px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333;
+
+}
+.logo img {
+	float:left;
+}
+.logo a{
+	text-decoration: none;
+	color: black;
+}
+.menu-acciones {
+	width: 300px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	display: block;
+	padding: 4px 8px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	color: #4078c0;
+}
+.menu-buscador {
+	width: 250px;
+	float:left;
+}
+.menu-buscador input {
+	padding: 0 10px 0 2px;
+	/*background: url('/img/bg_searchbar.png?1296191141') no-repeat;*/
+	width: 250px;
+	border: none;
+	font-size: 10pt;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  min-height: 22px;
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 5px;
+
+  width: 250px;
+
+
+  font-size: 13px;
+  color: #333;
+  
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+
+ font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.buscando {
+	margin-bottom:10px;
+}
+
+.menu-login {
+	width: 200px;
+	float: right;
+
+	text-align: right;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	display: block;
+	padding: 4px 8px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #333;
+}
+.menu-login a{
+	text-decoration:none;
+}
+.zona-principal {
+	background-color: rgba(248,248,248,0.5);
+	min-height: 1000px;
+	padding: 10px;
+
+}
+
+.topics {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+
+
+    
+
+}
+.topics li {
+
+	  position: relative;
+	      padding-top: 30px;
+  	padding-bottom: 30px;
+  	list-style: none;
+  	border-bottom: 1px solid #eee;
+ 	 
+}
+.topics li a {
+	  color: #4078c0;
+	  text-decoration: none;
+}
+.info-topic {
+	color: #828282;
+	font-size: 9pt;
+	margin-left: 18px;
+}
+.info-topic a {
+	color:#828282;
+}
+.numero {
+	 font-size: 10pt;
+ 	 color: #828282;
+ 	 float: left;
+
+ 	 height:30px;
+ 	 overflow:hidden;
+ 	 width: 22px;
+}
+.pie {
+	border-top: 1px solid black;
+	color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 9pt;
+    background-color: rgba(248,248,248,0.5);
+
+    text-align: center;
+    padding-top:20px;
+    color: #828282;
+
+	position: relative;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #767676;
+	border-top: 1px solid #eee;
+
+}
+.pie a {
+	text-decoration:none;
+
+}
+.titulo-topic {
+	color: #03a;
+	overflow:hidden;
+	display: block;
+	font-weight: bold;
+
+}
+.texto-topic {
+	color: #000000;
+	font-weight: normal;
+
+}
+.topic {
+	max-width: 980px;
+}
+
+/* formulario login */
+.formulario-login {
+	font-size: 10pt;
+
+	margin:auto;
+	margin-top: 10px;
+
+	color: #4e575b;
+}
+.formulario-interior {
+	padding: 1px 10px;
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #666;
+  font-size: 13px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.login-usuario {
+	margin-bottom: 20px;
+}
+.login-usuario input {
+	  display:block;
+	   box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  display: block;
+	  width: 100%;
+	  font-size: 14px;
+	  height: 34px;
+	  line-height: 20px;
+	  padding: 6px 12px;
+	  background-image: none;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-shadow: inset 1px 1px 2px -1px rgba(0,0,0,0.15);
+	  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  width: 300px;
+	  font-size: 10pt;
+	  
+
+}
+.titulo-formulario-login {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+
+    background-color: #f5f5f5;
+  margin: 0;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #d8d8d8;
+  border-bottom: 0;
+  padding: 9px 10px 10px;
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+
+}
+.boton-formulario {
+
+	  box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  display: inline-block;
+	  margin-bottom: 0;
+	  text-align: center;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  vertical-align: middle;
+	  cursor: pointer;
+	  background-image: none;
+	  border: 1px solid transparent;
+	  white-space: nowrap;
+	  padding: 4px 12px 3px;
+	  font-size: 12px;
+	  line-height: 20px;
+	  border-radius: 3px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -o-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	    background-color: #4f86b5;
+	  border-bottom: 2px solid #4270a2;
+	  color: #ffffff;
+	    font-size: 9pt;
+
+}
+
+.nuevo-usuario {
+	margin-bottom: 20px;
+}
+.nuevo-usuario input {
+	  display:block;
+	   box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  display: block;
+	  width: 100%;
+	  font-size: 14px;
+	  height: 34px;
+	  line-height: 20px;
+	  padding: 6px 12px;
+	  background-image: none;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-shadow: inset 1px 1px 2px -1px rgba(0,0,0,0.15);
+	  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+	  font-size: 10pt;
+	  
+
+}
+
+.nuevo-usuario textarea {
+	  display:block;
+	   box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  display: block;
+	  width: 100%;
+	  font-size: 14px;
+	  min-height: 100px;
+	  line-height: 20px;
+	  padding: 6px 12px;
+	  background-image: none;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-shadow: inset 1px 1px 2px -1px rgba(0,0,0,0.15);
+	  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  -ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+	  font-size: 10pt;
+	  
+
+}
+
+.numero-paginas {
+	margin-top: 50px;
+	text-align:center;
+}

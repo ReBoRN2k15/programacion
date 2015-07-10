@@ -1,7 +1,7 @@
 # #Programación
 Sitio web del canal de programación @ChatHispano
 
-- Despligue:
+Despligue:
 
 * Cambiar el fichero /inc/variables.php con la configuración de tu propia base de datos.
 
@@ -9,5 +9,5 @@ Sitio web del canal de programación @ChatHispano
 
 - Autor: 
 
-* ReBoRN @2015
+ReBoRN @2015
 
